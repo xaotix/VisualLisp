@@ -1,0 +1,25 @@
+;;; Visual LISP make file [V1.0] MERCADORIAS saved to:[C:/Users/ma1516/Desktop/DEV_SAP] at:[10/28/16] 
+(PRV-DEF (:target . "MERCADORIAS.VLX")
+	 (:active-x . T)
+	 (:separate-namespace)
+	 (:protected . T)
+	 (:load-file-list
+	   (:lsp "MERCADORIAS.lsp")
+	   (:lsp "tecnometaltools.lsp")
+	   (:lsp "materiais2.lsp")
+	   (:lsp "atributos.lsp")
+	   (:lsp "cor_telhas.lsp")
+	   (:lsp "merc.lsp")
+	 )
+	 (:require-file-list
+	   (:DCL "dcl.dcl")
+	   (:DCL "menu_tratamentos.dcl")
+	   (:DCL "init.dcl")
+	   (:DCL "menu_materiais.dcl")
+	   (:DCL "menut.dcl")
+	 )
+	 (:ob-directory)
+	 (:tmp-directory)
+	 (:optimization . lsa)
+)
+;; EOF

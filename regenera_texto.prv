@@ -1,0 +1,12 @@
+;;; Visual LISP make file [V1.0] regenera_texto saved to:[C:/Users/ma1516/Desktop] at:[1/21/15] 
+(PRV-DEF (:target . "regenera_texto.VLX")
+	 (:active-x . T)
+	 (:separate-namespace)
+	 (:protected . T)
+	 (:load-file-list (:lsp "regenera_texto.lsp"))
+	 (:require-file-list)
+	 (:ob-directory)
+	 (:tmp-directory)
+	 (:optimization . st)
+)
+;; EOF
