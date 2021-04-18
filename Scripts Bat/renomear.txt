@@ -1,0 +1,13 @@
+@echo off
+Setlocal enabledelayedexpansion
+::de
+Set "Pattern=.mdj."
+::para
+Set "Replace=.mdj5."
+
+For %%# in ("*.*") Do (
+    Set "File=%%~nx#"
+    Ren "%%#" "!File:%Pattern%=%Replace%!"
+)
+
+Pause&Exit

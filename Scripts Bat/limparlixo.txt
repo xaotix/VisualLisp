@@ -1,0 +1,1 @@
+del /s /q *Test_Mark.Xml *.XTestPos *.xMark *.XTestMark *.dwt *.bak *.lnk *.lsp *Thumbs.db *__base__.dwg
