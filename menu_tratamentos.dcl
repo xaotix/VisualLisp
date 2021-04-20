@@ -11,51 +11,57 @@ pegar_info1 : dialog {
 		mnemonic = "G";	
 		}
 		: radio_button {
-			label = "GALVANIZADO COM JATO";
+			label = "FICHA 01";
 			value = "0";
-			key = "GALVANIZADO_COM_JATO";
+			key = "FICHA_01";
 		mnemonic = "J";	
 		}
 		: radio_button {
-			label = "PINTURA LÍQUIDA";
+			label = "FICHA 02";
 			value = "0";
-			key = "PINTURA_LIQUIDA";
+			key = "FICHA_02";
 		mnemonic = "L";	
 		}
 		: radio_button {
-			label = "PINTURA LÍQUIDA 2 DM";
+			label = "FICHA 03";
 			value = "0";
-			key = "PINTURA_LIQUIDA_2_DM";
+			key = "FICHA_03";
 					mnemonic = "2";	
 		}
 		: radio_button {
-			label = "PINTURA LÍQUIDA 3 DM";
+			label = "FICHA 04";
 			value = "0";
-			key = "PINTURA_LIQUIDA_3_DM";
+			key = "FICHA_04";
 					mnemonic = "3";	
 		}		
 		: radio_button {
-			label = "PINTURA PÓ";
+			label = "FICHA 05";
 			value = "0";
-			key = "PINTURA_PO";
+			key = "FICHA_05";
 					mnemonic = "P";	
 		}
 		: radio_button {
-			label = "PINTURA PÓ - 2 DM";
+			label = "FICHA 06";
 			value = "0";
-			key = "PINTURA_PO_2_DM";
+			key = "FICHA_06";
 							mnemonic = "2";		
 		}
 		: radio_button {
-			label = "PÓS PINTURA LÍQUIDA";
+			label = "FICHA 07";
 			value = "0";
-			key = "POS_PINTURA_LIQUIDA";
+			key = "FICHA_07";
 					mnemonic = "S";	
 		}
 		: radio_button {
-			label = "PÓS PINTURA PÓ";
+			label = "FICHA 08";
 			value = "0";
-			key = "POS_PINTURA_PO";
+			key = "FICHA_08";
+					mnemonic = "R";	
+		}
+		: radio_button {
+			label = "FICHA 09";
+			value = "0";
+			key = "FICHA_09";
 					mnemonic = "R";	
 		}
 		: radio_button {
