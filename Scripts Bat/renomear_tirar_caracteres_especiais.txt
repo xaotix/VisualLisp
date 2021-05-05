@@ -1,0 +1,84 @@
+@echo off
+Setlocal enabledelayedexpansion
+Set "Pattern= "
+Set "Replace=_"
+Set "Pattern2=ç"
+Set "Replace2=c"
+Set "Pattern3=ã"
+Set "Replace3=a"
+Set "Pattern4=õ"
+Set "Replace4=o"
+Set "Pattern5=é"
+Set "Replace5=e"
+Set "Pattern6=í"
+Set "Replace6=i"
+Set "Pattern7=ó"
+Set "Replace7=o"
+Set "Pattern8=ê"
+Set "Replace8=e"
+Set "Pattern9=ô"
+Set "Replace9=o"
+Set "Pattern9=â"
+Set "Replace9=a"
+Set "Pattern10=@"
+Set "Replace10=_"
+Set "Pattern11=º"
+Set "Replace11=_"
+Set "Pattern12=__"
+Set "Replace12=_"
+
+
+For /r %%# in ("*.*") Do (
+    Set "File=%%~nx#"
+    Ren "%%#" "!File:%%a=%%a!"
+)
+
+For /r %%# in ("*.*") Do (
+    Set "File=%%~nx#"
+    Ren "%%#" "!File:%Pattern%=%Replace%!"
+)
+For /r %%# in ("*.*") Do (
+    Set "File=%%~nx#"
+    Ren "%%#" "!File:%Pattern2%=%Replace2%!"
+)
+For /r %%# in ("*.*") Do (
+    Set "File=%%~nx#"
+    Ren "%%#" "!File:%Pattern3%=%Replace3%!"
+)
+For /r %%# in ("*.*") Do (
+    Set "File=%%~nx#"
+    Ren "%%#" "!File:%Pattern4%=%Replace4%!"
+)
+For /r %%# in ("*.*") Do (
+    Set "File=%%~nx#"
+    Ren "%%#" "!File:%Pattern5%=%Replace5%!"
+)
+For /r %%# in ("*.*") Do (
+    Set "File=%%~nx#"
+    Ren "%%#" "!File:%Pattern6%=%Replace6%!"
+)
+For /r %%# in ("*.*") Do (
+    Set "File=%%~nx#"
+    Ren "%%#" "!File:%Pattern7%=%Replace7%!"
+)
+For /r %%# in ("*.*") Do (
+    Set "File=%%~nx#"
+    Ren "%%#" "!File:%Pattern8%=%Replace8%!"
+)
+For /r %%# in ("*.*") Do (
+    Set "File=%%~nx#"
+    Ren "%%#" "!File:%Pattern9%=%Replace9%!"
+)
+For /r %%# in ("*.*") Do (
+    Set "File=%%~nx#"
+    Ren "%%#" "!File:%Pattern10%=%Replace10%!"
+)
+For /r %%# in ("*.*") Do (
+    Set "File=%%~nx#"
+    Ren "%%#" "!File:%Pattern11%=%Replace11%!"
+)
+For /r %%# in ("*.*") Do (
+    Set "File=%%~nx#"
+    Ren "%%#" "!File:%Pattern12%=%Replace12%!"
+)
+Pause&Exit
