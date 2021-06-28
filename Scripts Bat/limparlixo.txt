@@ -1,1 +1,1 @@
-del /A:H /s /q *~$* *.tmp *.mp3 *albumart* *.wma *Test_Mark.Xml *.XTestPos *.xMark *.stp *.$ac *.XTestMark *.dwt *.bak *.lnk ACAD*.lsp *Thumbs.db __base__.dwg *.log *.err *.dwl *Note.Dat *.xview *.Note *.Property
+del /s /q *~$* *.tmp *.mp3 *albumart* *.wma *Test_Mark.Xml *.XTestPos *.xMark *.stp *.$ac *.XTestMark *.dwt *.bak *.lnk ACAD*.lsp *Thumbs.db __base__.dwg *.log *.err *.dwl *Note.Dat *.xview *.Note *.Property
