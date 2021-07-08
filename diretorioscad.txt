@@ -1,0 +1,8 @@
+C:\Program Files\Autodesk\AutoCAD Mechanical 2012\
+C:\ProgramData\Autodesk\AutoCAD Mechanical 2012\
+
+C:\Users\Public\Documents\Autodesk\AutoCAD Mechanical 2012\
+C:\Users\dan8p\AppData\Local\Autodesk\AutoCAD Mechanical 2012\
+C:\Users\dan8p\AppData\Roaming\Autodesk\AutoCAD Mechanical 2012\
+
+C:\Users\dan8p\AppData\Roaming\Autodesk\AutoCAD Mechanical 2012\R18.2\enu\Support\Profiles\
