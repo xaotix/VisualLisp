@@ -26,3 +26,4 @@ Configurações Regionais control intl.cpl
 Scanners e Câmeras control sticpl.cpl
 Propriedades de Som control mmsys.cpl sounds
 Propriedades do Sistema control sysdm.cpl
+Região e idioma intl.​cpl
